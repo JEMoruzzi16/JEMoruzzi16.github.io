@@ -1,0 +1,67 @@
+body{
+    background: #cf8234;
+    width: 90%;
+    height: 550px;
+    width: 100%;
+}
+.contenedor{
+    width: 90%;
+    max-width: 800px;
+    margin:auto;
+    text-align: center;
+}
+h1{
+    margin:0%;
+    font-family: cursive;
+    
+}
+h2{
+    text-align: center;
+    margin-top: 2px;
+}
+h3{
+    margin: 0%;
+    margin-bottom: 5px;
+}/*
+#linkejemplo{
+    display: inline;
+}*/
+
+#divabo{
+    border-style: groove;
+    width: 45%;
+    height: 80%;
+    margin:10px;
+    margin-left: 40px;
+    text-align:left;
+    background: #e69c52de;
+    display: inline-block;
+}
+
+#divpro{
+    width: 45%;
+    height: 80%;
+    text-align: left;
+    border-style: groove;
+    margin: 10px;
+    background: #e69c52de;
+    display: inline-block;
+}
+
+footer{
+    margin: 3px;
+    margin-left: 57px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 90%;
+    height: 60px;
+
+}
+
+.gitlogo{
+    width: 50px;
+    height: 50px;
+    display: inline;
+
+}
