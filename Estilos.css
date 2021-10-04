@@ -1,14 +1,23 @@
 body{
     background: #cf8234;
     width: 90%;
-    height: 550px;
-    width: 100%;
+    min-height: 500px;
 }
-.contenedor{
+section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: stretch;
+
+}
+header{
     width: 90%;
     max-width: 800px;
-    margin:auto;
+    
+    margin-left: 240px;
     text-align: center;
+    order: 3;
 }
 h1{
     margin:0%;
@@ -21,31 +30,43 @@ h2{
 }
 h3{
     margin: 0%;
-    margin-bottom: 5px;
-}/*
-#linkejemplo{
-    display: inline;
-}*/
+    margin-bottom: 8px;
+}
 
 #divabo{
     border-style: groove;
-    width: 45%;
-    height: 80%;
-    margin:10px;
-    margin-left: 40px;
+    width: 29.5%;
+    min-height: 350px;
+    margin: 0px;
+    margin-left: 63px;
     text-align:left;
     background: #e69c52de;
-    display: inline-block;
+    flex-direction: row;
 }
 
 #divpro{
-    width: 45%;
-    height: 80%;
+    width: 29.5%;
+    height: auto;
+    min-height: 200px;
     text-align: left;
     border-style: groove;
-    margin: 10px;
     background: #e69c52de;
-    display: inline-block;
+    flex-direction: row;
+}
+#foto{
+    height: 362px;
+    width: 265px;
+    margin-left: 3px;
+    margin-top: 4px;
+}
+
+#divfoto{
+    border-style: groove;
+    width: 22%;
+    height: auto;
+    min-height: 200px;
+    background: #e69c52de;
+    flex-direction: row;
 }
 
 footer{
@@ -55,7 +76,6 @@ footer{
     position: fixed;
     bottom: 0;
     width: 90%;
-    height: 60px;
 
 }
 
@@ -64,4 +84,14 @@ footer{
     height: 50px;
     display: inline;
 
+}
+
+#contacto{
+    margin: 2px;
+    border:  2px;
+    padding: 2px;
+
+}
+a:link, a:visited, a:active{
+    text-decoration: none;
 }
