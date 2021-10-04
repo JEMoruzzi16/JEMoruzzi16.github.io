@@ -2,6 +2,7 @@ body{
     background: #cf8234;
     width: 90%;
     min-height: 500px;
+    
 }
 section{
     display: flex;
@@ -22,19 +23,27 @@ header{
 h1{
     margin:0%;
     font-family: cursive;
-    
+    text-shadow: 1px 3px #999;
 }
 h2{
     text-align: center;
     margin-top: 2px;
+    font-size:  24px;
 }
 h3{
     margin: 0%;
     margin-bottom: 8px;
+    text-shadow: 1px 3px #999;
+}
+
+div{
+    font-size: 19px;
 }
 
 #divabo{
-    border-style: groove;
+    border-style:dashed;
+    border-radius: 3%;
+    border-color: floralwhite;
     width: 29.5%;
     min-height: 350px;
     margin: 0px;
@@ -49,7 +58,9 @@ h3{
     height: auto;
     min-height: 200px;
     text-align: left;
-    border-style: groove;
+    border-style:dashed;
+    border-radius: 3%;
+    border-color: floralwhite;
     background: #e69c52de;
     flex-direction: row;
 }
@@ -58,10 +69,13 @@ h3{
     width: 265px;
     margin-left: 3px;
     margin-top: 4px;
+    border-radius: 5%;
 }
 
 #divfoto{
-    border-style: groove;
+    border-style:dashed;
+    border-radius: 3%;
+    border-color: floralwhite;
     width: 22%;
     height: auto;
     min-height: 200px;
@@ -76,8 +90,7 @@ footer{
     position: fixed;
     bottom: 0;
     width: 90%;
-
-}
+ }
 
 .gitlogo{
     width: 50px;
@@ -90,7 +103,6 @@ footer{
     margin: 2px;
     border:  2px;
     padding: 2px;
-
 }
 a:link, a:visited, a:active{
     text-decoration: none;
